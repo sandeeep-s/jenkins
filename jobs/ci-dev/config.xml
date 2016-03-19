@@ -70,7 +70,7 @@
         <url>https://hub.docker.com</url>
         <credentialsId>04887ad6-467c-43df-9567-effad83594d9</credentialsId>
       </registry>
-      <repoName>sandeeps/docker-whale</repoName>
+      <repoName>sandeeps/docker-ci</repoName>
       <noCache>false</noCache>
       <forcePull>true</forcePull>
       <dockerfilePath>ci-portlet/Dockerfile</dockerfilePath>
