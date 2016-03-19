@@ -32,6 +32,12 @@
     </hudson.triggers.SCMTrigger>
   </triggers>
   <concurrentBuild>false</concurrentBuild>
+  <rootModule>
+    <groupId>com.example.plugins</groupId>
+    <artifactId>ci-portlet</artifactId>
+  </rootModule>
+  <rootPOM>ci-portlet/pom.xml</rootPOM>
+  <goals>-P local clean deploy</goals>
   <aggregatorStyleBuild>true</aggregatorStyleBuild>
   <incrementalBuild>false</incrementalBuild>
   <ignoreUpstremChanges>true</ignoreUpstremChanges>
